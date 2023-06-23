@@ -1,0 +1,66 @@
+.q {
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.q img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.q a {
+    text-decoration: none;
+}
+
+
+.chi {
+    display: inline-block;
+
+}
+
+
+
+
+.hi {
+
+    display: inline-block;
+    height: 300 px;
+    width: 100%;
+    text-align: center;
+
+    overflow: auto;
+    /* ←↓  vertical division scrolling*/
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+
+
+.hi::-webkit-scrollbar {     /*hides scrollbar but still scroll works when the division name is initiated without space ,,, if div name not initiated it will apply to the whole html */
+    display: none;
+}
+
+.chi img{
+    width: 160px;
+}
+
+.mtm{
+    margin-top: -10px;
+}
+
+
+.border-none{
+    border-color: transparent;
+}
+
+.hu:hover{
+    text-decoration: underline;
+}
+
+.chi:hover .ho{
+    transform: scale(1.1); 
+    transition-duration: .5s;
+}

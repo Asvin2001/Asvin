@@ -39,7 +39,8 @@
 
 
 
-.hi::-webkit-scrollbar {     /*hides scrollbar but still scroll works when the division name is initiated without space ,,, if div name not initiated it will apply to the whole html */
+.hi::-webkit-scrollbar { 
+    display: none;    /*hides scrollbar but still scroll works when the division name is initiated without space ,,, if div name not initiated it will apply to the whole html */
     display: none;
 }
 
